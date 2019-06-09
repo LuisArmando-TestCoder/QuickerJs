@@ -1,0 +1,31 @@
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1vw;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    min-height: 100vh;
+    place-items: center;
+    background: radial-gradient(top, #2980B9, #6DD5FA, #FFFFFF);
+    background: -webkit-linear-gradient(top, #2980B9, #6DD5FA, #FFFFFF);
+}
