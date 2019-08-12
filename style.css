@@ -23,7 +23,7 @@ a:hover {
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3, 2fr);
     min-height: 100vh;
     place-items: center;
     background: radial-gradient(top, #2980B9, #6DD5FA, #FFFFFF);
